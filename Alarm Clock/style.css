@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, .main, .clock, .timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(191, 255, 255);
+}
+
+.main{
+    flex-direction: column;
+    background-color: white;
+    width: 35%;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.clock{
+    flex-direction: column;
+}
+
+.curr-time{
+    margin: 10px 0px;
+    font-size: larger;
+}
+
+img{
+    max-width: 200px;
+}
+
+.timer{
+    flex-direction: row;
+}
+
+.timer > div{
+    margin: 5px 5px;
+}
+
+.timer-select{
+    padding: 10px 20px;
+}
+
+.button{
+    padding: 10px 20px;
+    margin: 10px 0px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
