@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 33%;
+}
+
+h1{
+    position: relative;
+    left: 10%;
+    margin: 3rem 0rem;
+}
+
+#content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 200px;
+    margin: 0px 5px;
+}
+.page-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.page-list{
+    display: flex;
+}
+
+button{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(205, 205, 205);
+    background-color: white;
+    margin: 0px 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+#left , #right{
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    background-color: rgb(238, 238, 238);
+    border: none;
+    margin: 0px;
+
+}
+
+.active{
+    color: purple;
+    border: 2px solid purple;
+}
+
+#page-no{
+    margin: 50px 0px;
+    font-size: large;
+    position: relative;
+    right: 45%;
+}
