@@ -1,0 +1,58 @@
+
+body{
+    position: relative;
+    height: 100vh;
+    left: 30%;
+    margin-top: 10%;
+}
+.main--container{
+    background-color: azure;
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+h3{
+    font-size: xx-large;
+}
+.password--container{
+    height: 100vh;
+}
+
+.input--field{
+    padding: 10px;
+
+}
+
+#btn{
+    padding: 10px;
+    background-color: rgb(161, 181, 181);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 3px;
+}
+
+#copy{
+    padding: 10px;
+    background-color: rgb(161, 181, 181);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 3px;
+}
+
+#copy-confirmation{
+    color: rgb(4, 171, 4);
+    font-weight: bolder;
+    background-color: rgb(218, 224, 222);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}

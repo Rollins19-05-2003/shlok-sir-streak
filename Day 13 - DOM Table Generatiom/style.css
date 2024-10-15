@@ -1,0 +1,41 @@
+
+    .container{
+        height: 100vh;
+    }
+
+    .heading{
+        position: relative;
+        top: 30%;
+        left: 37%;
+        font-size: x-large;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #table--btn{
+        padding: 20px;
+        background-color: gray;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        position: relative;        
+        left: 45%;
+        top: 30%;
+    }
+
+    #table--container{
+        position: relative;
+        left: 40%;
+        top: 40%;
+    }
+
+    .table{
+        border: 2px solid brown;
+    }
+
+    .td{
+        border: 1px solid green;
+        border-collapse: collapse;
+        padding: 15px;
+    }
