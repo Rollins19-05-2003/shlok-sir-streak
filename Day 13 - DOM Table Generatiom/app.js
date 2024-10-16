@@ -3,6 +3,8 @@ const btn = document.getElementById('table--btn');
 
 btn.addEventListener('click', ()=>{
     console.log("clicked")
+    table_container.innerHTML = '';
+
     const row = prompt("Enter the number of rows")
     const col = prompt("Enter the number of columns")
     const table = document.createElement('table');
